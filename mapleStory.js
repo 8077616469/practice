@@ -1,6 +1,6 @@
-var app = angular.module('arcApp', ['ui.bootstrap', 'nvd3', 'ngStorage']);
+var app = angular.module('mapleStoryApp', ['ui.bootstrap', 'nvd3', 'ngStorage']);
 
-app.controller('arc', function($scope, $log, $http, $rootScope, $localStorage, $sessionStorage) {
+app.controller('mapleStory', function($scope, $log, $http, $rootScope, $localStorage, $sessionStorage) {
 	$scope.init = function() {
 		$scope.inputVO = {
 			dailyAreaOne : "18",
